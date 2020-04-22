@@ -45,7 +45,7 @@ docs/_build/
 .vscode
 mockups
 
-ckanext/gobar_theme/public/user_images
+ckanext/gobar_theme/public/user_images/*
 .venv
 ckanext/gobar_theme/tests/tests_config/data
 
