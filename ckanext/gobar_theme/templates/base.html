@@ -51,4 +51,7 @@
 
 {%- block links -%}
     <link rel="shortcut icon" href="/favicon.ico"/>
+    {% block googleanalytics_header %}
+        {{ h.googleanalytics_header() }}
+    {% endblock %}
 {%- endblock -%}
